@@ -1,0 +1,194 @@
+@font-face{
+	src: url("fonts/TanaUncialSP.otf");
+	font-family: "kotiki";
+}
+
+@font-face{
+	src: url("fonts/Shentox-Regular (RUS by Slavchansky)_0.ttf");
+	font-family: "kotik";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "kotik";
+
+}
+
+header{
+	position: relative;
+	background:#1C252C;
+	height: 150px;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+#logo{
+	width: 130px;
+	height: 130px;
+	position: relative;
+	bottom: -10px;
+	left: 50px;
+	background-image: url("images/1699488834841.png");
+	background-size: cover;
+	background-position: center center;
+}
+
+header h1{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #58545B;
+	font-family: "kotiki";
+}
+header h2{
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	color: #58545B;
+	font-family: "kotiki";
+}
+
+nav{
+	background: #B7A7AE;
+	height: 50px;
+	text-align: center;
+	position: sticky;
+	top: 150px;
+	z-index: 999;
+}
+nav a{
+	color: #261a2b;
+	text-decoration: none;
+	font-size: 26px;
+	margin: 0 15px;
+	line-height: 50px;
+	transition: 0.5s;
+}
+nav a:hover{#B7A7AE
+	color: ;
+}
+
+#c1{
+	background: #E1D5D9;
+}#c2{
+	background: #E1D5D9;
+}
+
+section{
+	min-height: 400px;
+	padding: 50px;
+}
+
+section h1{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.img_left img{
+	float: left;
+	width: 400px;
+	margin-right: 30px;
+}
+
+.clear{
+	clear: both;
+}
+
+.img_left p, .img_right p{
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 40px;
+}
+.img_right img{
+	float: right;
+	width: 600px;
+	margin-left: 30px;
+}
+.img_left, .img_right{
+	padding-bottom: 20px;
+}
+.oio{
+	float: right;
+	width: 500px;
+	margin-left: 50px;
+}
+.slider{
+	position: relative;
+	width: 50%;
+	height: 500px;
+	overflow: hidden;
+}
+.sliders{
+	display: flex;
+	width: 200%;
+	height: 100%;
+}
+.slide{
+	width: 50%;
+	transition: 0.8s;
+}
+
+.slide img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+input[name="r"]{
+	visibility: hidden;
+	position: absolute;
+}
+
+.navigation{
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.navigation label{
+	width: 30px;
+	height: 10px;
+	background: #8608;
+	margin: 0 10px;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.navigation label:hover{
+	background: #000;
+	transform: scale(1.1);
+}
+
+#kotik1:checked ~ .s1{
+	margin-left: 0;
+}
+
+#kotik2:checked ~ .s1{
+	margin-left: -50%;
+}
+
+footer{
+	position: relative;
+	background: #2C5D37;
+	height: 200px;
+}
+
+footer div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%;-50%);
+	text-align: center;
+}
