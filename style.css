@@ -15,6 +15,8 @@
 
 }
 
+
+
 header{
 	position: relative;
 	background:#1C252C;
@@ -75,9 +77,12 @@ nav a:hover{#B7A7AE
 }
 
 #c1{
-	background: #E1D5D9;
+	background: #E9E9E9;
 }#c2{
-	background: #E1D5D9;
+	background: #ADA9BA;
+}
+#c3{
+	background: #706F8E ;
 }
 
 section{
@@ -93,6 +98,7 @@ section h1{
 .container{
 	width: 80%;
 	margin: auto;
+	overflow: hidden;
 }
 .img_left img{
 	float: left;
@@ -181,7 +187,7 @@ input[name="r"]{
 
 footer{
 	position: relative;
-	background: #2C5D37;
+	background: #1C252C;
 	height: 200px;
 }
 
@@ -189,6 +195,6 @@ footer div{
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%;-50%);
+	transform: translate(-50%,-50%);
 	text-align: center;
 }
